@@ -616,3 +616,53 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/* Media Queries small screen */
+@media screen and (max-width:600px){
+  .banner{
+    padding: 100px 0 70px 0;
+  }
+  nav.navbar a.navbar-brand {
+    width: 15%;
+  }
+  .banner h1 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .project {
+    padding: 45px 0;
+  }
+  .project p{
+    width: 80%;
+  }
+  .row .getinTouch{
+    padding: 0 50px;
+  }
+  .subButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .skill-bx{
+    padding: 40px 18px;
+  }
+  .skill p{
+    font-size: 16px;
+    margin: 14px 0 40px 0;
+  }
+  .newsletter-bx{
+    padding: 25px 20px; 
+  }
+
+  .newsletter-bx h3{
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .new-email-bx button{
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+}
