@@ -27,6 +27,7 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     let response = await fetch("http://localhost:5000/contact", {
+      action:"https://formspree.io/f/xknezook",
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
