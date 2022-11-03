@@ -670,9 +670,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 80%;
     font-size: 15px;
   }
-  .row{
-    /* margin: 0; */
-  }
   .row .getinTouch{
     padding: 0 50px;
   }

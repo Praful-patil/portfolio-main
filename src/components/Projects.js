@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+// import projImg1 from "../assets/img/project-img1.png";
+import movieApp from "../assets/img/movie_search.PNG"
+// import projImg2 from "../assets/img/project-img2.png";
+import weatherApp from "../assets/img/weather_app.PNG"
+// import projImg3 from "../assets/img/project-img3.png";
+import photoWebsite from "../assets/img/photography_website.PNG"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,19 +14,19 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Movie Search App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: movieApp,
     },
     {
-      title: "Business Startup",
+      title: "Weather App",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: weatherApp,
     },
     {
-      title: "Business Startup",
+      title: "Photography Website",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: photoWebsite,
     }
   ];
 

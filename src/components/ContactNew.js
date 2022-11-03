@@ -5,6 +5,8 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const ContactNew = () => {
+
+  
   return (
     <section className="contact" id="connect">
       <Container>
